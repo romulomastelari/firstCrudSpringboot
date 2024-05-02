@@ -44,8 +44,10 @@ Para iniciá-lo, siga os passos abaixo:
 
 ```
 Utilizo tomCat como servidor e utilizo Intellij para rodar
-Mas também é póssivel baixar e rodar tomCat só baixar a última versão do Tomcat do site oficial do Apache Tomcat -> https://tomcat.apache.org/download-80.cgi e escolha a versão correta para o seu sistema operacional.
-mvn clean package para gerar o arquivo war logo após gerar o war é preciso encaminhas para o seu tomCat então fica mais ou menos cp target/first-api-0.0.1-SNAPSHOT.war /caminho/para/tomcat/webapps/
+Mas também é póssivel baixar e rodar tomCat só baixar a última versão do Tomcat do site
+oficial do Apache Tomcat -> https://tomcat.apache.org/download-80.cgi e escolha a versão correta para o seu sistema operacional.
+mvn clean package para gerar o arquivo war logo após gerar o war é preciso encaminhas para o seu tomCat então fica
+mais ou menos cp target/first-api-0.0.1-SNAPSHOT.war /caminho/para/tomcat/webapps/
 Logo após é só rodar o script do tomCat no seu terminal /caminho/para/tomcat/bin/startup.sh
 ```
 
